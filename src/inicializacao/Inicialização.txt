@@ -1,0 +1,19 @@
+1- Espaço em memória é alocado para a criação do Objeto
+
+2- Todos os atributos são iniciados com seus valores padrão
+
+3- O construtor da SuperClasse é chamado
+
+5- SUPER CLASSE: A inicialização das variáveis com seus valores explícitos e a execução dos
+blocos de inicialização são efetuadas na ordem em que aparecem
+
+6- SUPER CLASSE: O construtor é executado
+
+7- SUB CLASSE: A inicialização das variáveis com seus valores explícitos e a execução dos
+blocos de inicialização são efetuadas na ordem em que aparecem
+
+8- SUB CLASSE: O construtor é executado
+
+***Obs: Na primeira vez em que a classe é chamada, independente de sua construção, os blocos estáticos são executados.
+Primeiro são executados os blocos estáticos da SuperClasse, e em seguida, da SubClasse.
+Os blocos estáticos só são executados uma única vez.

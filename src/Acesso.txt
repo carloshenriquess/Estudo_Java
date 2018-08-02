@@ -1,0 +1,2 @@
+Modificadores de acesso podem ser:
+private > default(pacote) > protected > public

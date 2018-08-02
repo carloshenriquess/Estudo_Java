@@ -1,0 +1,25 @@
+ERROS:
+
+Unchecked: o tratamento não é obrigatório e o erro ocorre em tempo de execução (erro do programador)
+
+Checked: é necessário um tratamento obrigatório, e caso não tenha, ocorrerá um erro de complilação (erro fora do controle do programador)
+
+
+(Confirir exemplo do que está escrito abaixo em: erros/img/ExceptioHierarchy.png)
+Unchecked: RuntimeException e suas subClasses
+Checked: Exception e suas subClasses que não tenham ligação com RuntimeException
+
+Decorar:
+Unchecked:
+-RuntimeException (genérica)
+-NullPointerExceptio (tentando usar variável de referência que aponta para o nulo)
+-ClassCastException (tentando fazer um castind de classe não válido)
+-IndexOutoOfBoundException (tentando utilizar um index de um array que não existe)
+-NumberFormatException
+-
+
+Checked:
+-IOException (classe File pode procurar um arquivo e esse arquivo não existir)
+-SQLException (Erro com banco de dados)
+-MalformedURLException (???)
+-
